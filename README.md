@@ -1,6 +1,6 @@
 # WiFi Attack w/ Wifite, Aircrack-ng, & Hashcat (In Progress)
 
-![Imgur]([https://imgur.com/q3Q24ux]) 
+![Imgur](https://imgur.com/q3Q24ux] 
 
 Welcome to the **WIFI Attack** project! This repository contains resources and examples for capturing a WiFi password cracking using multiple tools including  `wifite` , `aircrack-ng` , & `Hashcat` in Kali Linux.
 
