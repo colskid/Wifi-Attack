@@ -8,8 +8,8 @@ Welcome to the **WIFI Attack** project! This repository contains resources and e
 
 - [Introduction/Disclaimer](#introduction)
 - [Wifite](#wifite)
-- [Usage](#usage)
-- [Examples](#examples)
+- [Aircrack-ng](#aircrack-ng)
+- [Hashcat](#hashcat)
 - [Contributing](#contributing)
 
 
@@ -34,7 +34,7 @@ sudo wifite --kill
 ![Imgur](https://preview.redd.it/68orqswiei9a1.png?width=766&format=png&auto=webp&s=f3f74ce211e58943774642f0aa47ad4c3f72d7fb))
 
 
-## Usage
+## Aircrack-ng
 
 To capture network traffic using tcpdump, I used the following command:
 ```sh
@@ -46,7 +46,7 @@ sudo tcpdump -i eth0 -n -s 0 -w output.pcap
 - -s 0: Captures the entire packet. <br>
 - -w output.pcap: Writes the captured traffic to the output.pcap file. <br>
 
-## Examples
+## Hashcat
 
 ### Capturing HTTP Traffic <br>
 To capture HTTP traffic, I used a filter to target HTTP packets:
