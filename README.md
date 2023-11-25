@@ -7,7 +7,7 @@ Welcome to the **WIFI Attack** project! This repository contains resources and e
 ## Table of Contents
 
 - [Introduction/Disclaimer](#introduction)
-- [Getting Started](#getting-started)
+- [Wifite](#wifite)
 - [Usage](#usage)
 - [Examples](#examples)
 - [Contributing](#contributing)
@@ -15,20 +15,24 @@ Welcome to the **WIFI Attack** project! This repository contains resources and e
 
 ## Introduction
 
-In this project, I delve into the wireless attack tools available in Kali Linux with the aim of capturing my neighbor's WiFi password. With his explicit consent, I sought to achieve this objective and, subsequently, enhance the security of his network based on the findings.
+In this project, I delve into the wireless attack tools available in Kali Linux with the aim of capturing my neighbor's WiFi password. **With his explicit consent**, I sought to achieve this objective and, subsequently, enhance the security of his network based on the findings.
 
-**Disclaimer**
+**Disclaimer:**
 
 *Use this project responsibly and ethically. Unauthorized access to computer systems and networks is illegal and unethical. The tools and resources provided in this repository are intended for educational and ethical purposes only. The maintainers of this project are not responsible for any misuse or unlawful activities conducted with the tools provided. By using this project, you agree to use it in compliance with applicable laws and regulations.*
 
-## Getting Started
-
-To get started with the project, I needed to have `tcpdump` installed on my system. You can install it using package managers like `apt` or `brew`. Here's how to install it on Ubuntu:
+## Wifite
+To get started with the project, I needed to start `wifite`
 
 ```sh
-sudo apt-get update
-sudo apt-get install tcpdump
+sudo wifite --kill
 ```
+- --kill: This command will attempt to stop any ongoing wireless attacks initiated by wifite. Keep in mind that the 
+          effectiveness of the --kill option can depend on various factors, and in some cases, it might not instantly 
+          terminate all processes.
+
+![Imgur](https://preview.redd.it/68orqswiei9a1.png?width=766&format=png&auto=webp&s=f3f74ce211e58943774642f0aa47ad4c3f72d7fb))
+
 
 ## Usage
 
