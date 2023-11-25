@@ -22,7 +22,7 @@ In this project, I delve into the wireless attack tools available in Kali Linux 
 *Use this project responsibly and ethically. Unauthorized access to computer systems and networks is illegal and unethical. The tools and resources provided in this repository are intended for educational and ethical purposes only. The maintainers of this project are not responsible for any misuse or unlawful activities conducted with the tools provided. By using this project, you agree to use it in compliance with applicable laws and regulations.*
 
 ## Wifite
-To get started with the project, I needed to start `wifite`
+To get started with the project, I needed to start `wifite` in the terminal.
 
 ```sh
 sudo wifite --kill
