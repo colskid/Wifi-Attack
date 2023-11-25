@@ -15,7 +15,7 @@ Welcome to the **WIFI Attack** project! This repository contains resources and e
 
 ## Introduction
 
-In this project, I delve into the wireless attack tools available in Kali Linux with the aim of capturing my neighbor's WiFi password. **With his explicit consent**, I sought to achieve this objective and, subsequently, enhance the security of his network based on the findings.
+In this project, I delve into the wireless attack tools available in Kali Linux with the aim of capturing my neighbor's WiFi password. **WITH HIS EXPLICIT CONSENT**, I sought to achieve this objective and, subsequently, enhance the security of his network based on the findings.
 
 **Disclaimer:**
 
