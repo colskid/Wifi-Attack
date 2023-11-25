@@ -2,11 +2,11 @@
 
 ![Imgur](https://imgur.com/q3Q24ux.jpg)
 
-Welcome to the **WIFI Attack** project! This repository contains resources and examples for capturing a WiFi password cracking using multiple tools including  `wifite` , `aircrack-ng` , & `Hashcat` in Kali Linux.
+Welcome to the **WIFI Attack** project! This repository contains resources and examples for capturing a WiFi password using multiple tools including  `wifite` , `aircrack-ng` , & `Hashcat` within the Kali Linux environment.
 
 ## Table of Contents
 
-- [Introduction](#introduction)
+- [Introduction/Disclaimer](#introduction)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
 - [Examples](#examples)
@@ -15,7 +15,11 @@ Welcome to the **WIFI Attack** project! This repository contains resources and e
 
 ## Introduction
 
-In this project, I explore the usage of the `tcpdump` command-line tool to capture network traffic and analyze various protocols and data. This tool is commonly used for troubleshooting network issues, security analysis, and protocol debugging.
+In this project, I delve into the wireless attack tools available in Kali Linux with the aim of capturing my neighbor's WiFi password. With his explicit consent, I sought to achieve this objective and, subsequently, enhance the security of his network based on the findings.
+
+**Disclaimer**
+
+*Use this project responsibly and ethically. Unauthorized access to computer systems and networks is illegal and unethical. The tools and resources provided in this repository are intended for educational and ethical purposes only. The maintainers of this project are not responsible for any misuse or unlawful activities conducted with the tools provided. By using this project, you agree to use it in compliance with applicable laws and regulations.*
 
 ## Getting Started
 
