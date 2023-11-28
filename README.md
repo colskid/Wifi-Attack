@@ -40,15 +40,13 @@ While `wifite` couldn't crack the password, we successfully captured a `.pcap` f
 
 ![Imgur](https://i.imgur.com/jTdZ3fS.png)
 
-To capture network traffic using tcpdump, I used the following command:
+To use a dictionary attack with another wordlist, I used this format in `aircrack-ng`:
 ```sh
-sudo tcpdump -i eth0 -n -s 0 -w output.pcap
+sudo aircrack-ng -w /usr/share/wordlists/darkc0de.txt /home/kali/Desktop/mikewifi.cap
 ```
 
-- -i eth0: Specifies the interface to capture traffic from. <br>
-- -n: Disables hostname resolution for faster capture. <br>
-- -s 0: Captures the entire packet. <br>
-- -w output.pcap: Writes the captured traffic to the output.pcap file. <br>
+- -w: specifies the path to a wordlist file
+- `/home/cnile/Desktop/mikewifi.cap`: This is the path to the capture file (mikewifi.cap) that contains the encrypted Wi-Fi data you want to analyze.
 
 ## Social-Engineering
 
