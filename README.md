@@ -38,7 +38,7 @@ While `wifite` couldn't crack the password, we successfully captured a `.pcap` f
 
 ## Aircrack-ng
 
-![Imgur]((https://miro.medium.com/v2/resize:fit:640/format:webp/1*g19YeoGtXkntLk08t05G1A.jpeg))
+![Imgur](https://www.wikidata.org/wiki/Q408490#/media/File:Aircrack-ng-new-logo.jpg)
 
 To capture network traffic using tcpdump, I used the following command:
 ```sh
