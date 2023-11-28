@@ -66,7 +66,6 @@ Despite attempting to crack the password using the `rockyou.txt` wordlist and se
 ![Imgur](https://i.imgur.com/u7jaOib.jpg)
 Lets start off with the definition.<br> <br>
 *What is social engineering?* <br>
-
 Social engineering is a technique used by attackers to manipulate individuals into divulging confidential information, performing actions, or making decisions that they wouldn't typically do. <br>
 
 **The following day:** I happened to run into my neighbor and recounted my endeavor of attempting over 15 million password combinations to access his WiFi without success. He chuckled at the sheer magnitude of the attempts and casually mentioned that he believed he was still using the default password provided by his internet service provider (ISP). This casual conversation sparked my curiosity. I began pondering whether ISPs follow a specific method in crafting default passwords. Has anyone delved into this inquiry before? The moment had arrived to embark on a journey of exploration and research.
