@@ -34,6 +34,7 @@ sudo wifite --kill
 
 ![Imgur](https://preview.redd.it/68orqswiei9a1.png?width=766&format=png&auto=webp&s=f3f74ce211e58943774642f0aa47ad4c3f72d7fb))
 
+While `wifite` couldn't crack the password, we successfully captured a `.pcap` file that will prove useful moving forward.
 
 ## Aircrack-ng
 
