@@ -42,15 +42,18 @@ While `wifite` couldn't crack the password, we successfully captured a `.pcap` f
 
 To use a dictionary attack with another wordlist, I used this format in `aircrack-ng`:
 ```sh
-sudo aircrack-ng -w /usr/share/wordlists/darkc0de.txt /home/kali/Desktop/mikewifi.cap
+sudo aircrack-ng -w /usr/share/wordlists/rockyou.txt /home/kali/Desktop/mikewifi.cap
 ```
 
 - -w: specifies the path to a wordlist file
-- `/home/kali/Desktop/mikewifi.cap`: This is the path to the capture file (mikewifi.cap) that contains the encrypted Wi-Fi data you want to analyze.
+- `/home/kali/Desktop/mikewifi.cap`: This is the path to the capture file (mikewifi.cap) that contains the encrypted Wi-Fi data you want to analyze. <br>
+
+Despite attempting to crack the password using the `rockyou.txt` wordlist and several others, I was unsuccessful. After trying over 15 million passwords, I was unable to gain access to the network. 
 
 ## Social-Engineering
-
-
+Lets start off with the definition.
+What is social engineering?
+Social engineering is a technique used by attackers to manipulate individuals into divulging confidential information, performing actions, or making decisions that they wouldn't typically do. 
 ## Hashcat
 
 ### Capturing HTTP Traffic <br>
