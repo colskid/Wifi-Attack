@@ -10,6 +10,7 @@ Welcome to the **WIFI Attack** project! This repository contains resources and e
 - [Wifite](#wifite)
 - [Aircrack-ng](#aircrack-ng)
 - [Social-Engineering](#social-engineering)
+- [Research](#research)
 - [Hashcat](#hashcat)
 - [Contributing](#contributing)
 
@@ -69,6 +70,10 @@ Lets start off with the definition.<br> <br>
 Social engineering is a technique used by attackers to manipulate individuals into divulging confidential information, performing actions, or making decisions that they wouldn't typically do. <br>
 
 **The following day:** I happened to run into my neighbor and recounted my endeavor of attempting over 15 million password combinations to access his WiFi without success. He chuckled at the sheer magnitude of the attempts and casually mentioned that he believed he was still using the default password provided by his internet service provider (ISP). This casual conversation sparked my curiosity. I began pondering whether ISPs follow a specific method in crafting default passwords. Has anyone delved into this inquiry before? The moment had arrived to embark on a journey of exploration and research.
+
+
+## Research
+![Imgur](https://i.imgur.com/9ITPxus.jpg)
 
 
 ## Hashcat
