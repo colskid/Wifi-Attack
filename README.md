@@ -32,6 +32,18 @@ sudo wifite --kill
           effectiveness of the --kill option can depend on various factors, and in some cases, it might not instantly 
           terminate all processes.
 
+Wifite automates various stages of a wireless network attack, particularly focusing on Wi-Fi networks. The stages of a Wifite attack typically include:
+
+- Scanning: Wifite scans the surrounding area for available Wi-Fi networks.It identifies SSIDs, encryption types, signal strengths, and other relevant information.
+- Target Selection: The user selects the target Wi-Fi network for the attack.Wifite can target specific networks based on the user's input or automatically select the best target based on predefined criteria.
+- Attack Initialization: Wifite initializes the selected attack based on the chosen options.This may include WEP attacks, WPA/WPA2 dictionary attacks, brute-force attacks, PMKID attacks, or attacks against WPS vulnerabilities.
+- Dictionary Attack (WPA/WPA2): If the target network uses WPA or WPA2 encryption, Wifite may perform a dictionary attack.It tries to crack the pre-shared key by systematically testing passwords from a specified wordlist.
+- Bruteforce Attack: Wifite may conduct a brute-force attack by systematically trying all possible password combinations until the correct one is found.This is often a last resort and can be time-consuming.
+- WEP Attacks:If the target network uses WEP encryption (which is outdated and insecure), Wifite may perform attacks specific to WEP.It attempts to crack the WEP key using various methods.
+- PMKID Attack (WPA/WPA2): Wifite can use the PMKID attack method to crack WPA/WPA2 pre-shared keys without capturing a full handshake.This is a faster method compared to traditional handshake-based attacks.
+- WPS Attacks: Wifite may conduct attacks against the Wi-Fi Protected Setup (WPS) feature, exploiting vulnerabilities to gain access to the network.
+- Successful Authentication: If the attack is successful, Wifite informs the user and provides the key or password that was cracked.
+
 ![Imgur](https://preview.redd.it/68orqswiei9a1.png?width=766&format=png&auto=webp&s=f3f74ce211e58943774642f0aa47ad4c3f72d7fb))
 
 While `wifite` couldn't crack the password, we successfully captured a `.pcap` file that will prove useful moving forward.
