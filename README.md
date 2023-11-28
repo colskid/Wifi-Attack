@@ -44,8 +44,8 @@ Wifite automates various stages of a wireless network attack, particularly focus
 - WPS Attacks: Wifite may conduct attacks against the Wi-Fi Protected Setup (WPS) feature, exploiting vulnerabilities to gain access to the network.
 - Successful Authentication: If the attack is successful, Wifite informs the user and provides the key or password that was cracked.
 
-![Imgur](https://preview.redd.it/68orqswiei9a1.png?width=766&format=png&auto=webp&s=f3f74ce211e58943774642f0aa47ad4c3f72d7fb))
-
+![Imgur](https://preview.redd.it/68orqswiei9a1.png?width=766&format=png&auto=webp&s=f3f74ce211e58943774642f0aa47ad4c3f72d7fb)
+<br>
 While `wifite` couldn't crack the password, we successfully captured a `.pcap` file that will prove useful moving forward.
 
 ## Aircrack-ng
@@ -68,6 +68,8 @@ Lets start off with the definition.<br> <br>
 *What is social engineering?* <br>
 
 Social engineering is a technique used by attackers to manipulate individuals into divulging confidential information, performing actions, or making decisions that they wouldn't typically do. 
+
+The following day, I happened to run into my neighbor and recounted my endeavor of attempting over 15 million password combinations to access his WiFi without success. He chuckled at the sheer magnitude of the attempts and casually mentioned that he believed he was still using the default password provided by his internet service provider (ISP). This casual conversation sparked my curiosity. I began pondering whether ISPs follow a specific method in crafting default passwords. Has anyone delved into this inquiry before? The moment had arrived to embark on a journey of exploration and research.
 
 
 ## Hashcat
