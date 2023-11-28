@@ -52,7 +52,7 @@ Despite attempting to crack the password using the `rockyou.txt` wordlist and se
 
 ## Social-Engineering
 Lets start off with the definition.<br> <br>
-What is social engineering?<br>
+*What is social engineering?* <br>
 Social engineering is a technique used by attackers to manipulate individuals into divulging confidential information, performing actions, or making decisions that they wouldn't typically do. 
 ## Hashcat
 
