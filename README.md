@@ -35,9 +35,9 @@ sudo wifite --kill
 
 Wifite automates various stages of a wireless network attack, particularly focusing on Wi-Fi networks. The stages of a Wifite attack typically include:
 
-- ### Scanning: Wifite scans the surrounding area for available Wi-Fi networks.It identifies SSIDs, encryption types, signal strengths, and other relevant information.
-- ### Target Selection: The user selects the target Wi-Fi network for the attack.Wifite can target specific networks based on the user's input or automatically select the best target based on predefined criteria.
-- ### Attack Initialization: Wifite initializes the selected attack based on the chosen options.This may include WEP attacks, WPA/WPA2 dictionary attacks, brute-force attacks, PMKID attacks, or attacks against WPS vulnerabilities.
+- Scanning: Wifite scans the surrounding area for available Wi-Fi networks.It identifies SSIDs, encryption types, signal strengths, and other relevant information.
+- Target Selection: The user selects the target Wi-Fi network for the attack.Wifite can target specific networks based on the user's input or automatically select the best target based on predefined criteria.
+- Attack Initialization: Wifite initializes the selected attack based on the chosen options.This may include WEP attacks, WPA/WPA2 dictionary attacks, brute-force attacks, PMKID attacks, or attacks against WPS vulnerabilities.
 - Dictionary Attack (WPA/WPA2): If the target network uses WPA or WPA2 encryption, Wifite may perform a dictionary attack.It tries to crack the pre-shared key by systematically testing passwords from a specified wordlist.
 - Bruteforce Attack: Wifite may conduct a brute-force attack by systematically trying all possible password combinations until the correct one is found.This is often a last resort and can be time-consuming.
 - WEP Attacks: If the target network uses WEP encryption (which is outdated and insecure), Wifite may perform attacks specific to WEP.It attempts to crack the WEP key using various methods.
