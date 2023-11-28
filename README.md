@@ -39,7 +39,7 @@ Wifite automates various stages of a wireless network attack, particularly focus
 - Attack Initialization: Wifite initializes the selected attack based on the chosen options.This may include WEP attacks, WPA/WPA2 dictionary attacks, brute-force attacks, PMKID attacks, or attacks against WPS vulnerabilities.
 - Dictionary Attack (WPA/WPA2): If the target network uses WPA or WPA2 encryption, Wifite may perform a dictionary attack.It tries to crack the pre-shared key by systematically testing passwords from a specified wordlist.
 - Bruteforce Attack: Wifite may conduct a brute-force attack by systematically trying all possible password combinations until the correct one is found.This is often a last resort and can be time-consuming.
-- WEP Attacks:If the target network uses WEP encryption (which is outdated and insecure), Wifite may perform attacks specific to WEP.It attempts to crack the WEP key using various methods.
+- WEP Attacks: If the target network uses WEP encryption (which is outdated and insecure), Wifite may perform attacks specific to WEP.It attempts to crack the WEP key using various methods.
 - PMKID Attack (WPA/WPA2): Wifite can use the PMKID attack method to crack WPA/WPA2 pre-shared keys without capturing a full handshake.This is a faster method compared to traditional handshake-based attacks.
 - WPS Attacks: Wifite may conduct attacks against the Wi-Fi Protected Setup (WPS) feature, exploiting vulnerabilities to gain access to the network.
 - Successful Authentication: If the attack is successful, Wifite informs the user and provides the key or password that was cracked.
