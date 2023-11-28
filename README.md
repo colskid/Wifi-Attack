@@ -51,9 +51,13 @@ sudo aircrack-ng -w /usr/share/wordlists/rockyou.txt /home/kali/Desktop/mikewifi
 Despite attempting to crack the password using the `rockyou.txt` wordlist and several others, I was unsuccessful. After trying over 15 million passwords, I was unable to gain access to the network. 
 
 ## Social-Engineering
+![Imgur](https://i.imgur.com/u7jaOib.jpg)
 Lets start off with the definition.<br> <br>
 *What is social engineering?* <br>
+
 Social engineering is a technique used by attackers to manipulate individuals into divulging confidential information, performing actions, or making decisions that they wouldn't typically do. 
+
+
 ## Hashcat
 
 ### Capturing HTTP Traffic <br>
