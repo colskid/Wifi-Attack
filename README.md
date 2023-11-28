@@ -46,7 +46,7 @@ sudo aircrack-ng -w /usr/share/wordlists/darkc0de.txt /home/kali/Desktop/mikewif
 ```
 
 - -w: specifies the path to a wordlist file
-- `/home/cnile/Desktop/mikewifi.cap`: This is the path to the capture file (mikewifi.cap) that contains the encrypted Wi-Fi data you want to analyze.
+- `/home/kali/Desktop/mikewifi.cap`: This is the path to the capture file (mikewifi.cap) that contains the encrypted Wi-Fi data you want to analyze.
 
 ## Social-Engineering
 
