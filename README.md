@@ -58,7 +58,7 @@ To use a dictionary attack with another wordlist, I used this format in `aircrac
 sudo aircrack-ng -w /usr/share/wordlists/rockyou.txt /home/kali/Desktop/mikewifi.cap
 ```
 
-- -w: specifies the path to a wordlist file
+- `-w`: specifies the path to a wordlist file
 - `/home/kali/Desktop/mikewifi.cap`: This is the path to the capture file (mikewifi.cap) that contains the encrypted Wi-Fi data you want to analyze. <br>
 
 Despite attempting to crack the password using the `rockyou.txt` wordlist and several others, I was unsuccessful. After trying over 15 million passwords, I was unable to gain access to the network. 
