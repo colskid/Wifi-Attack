@@ -66,6 +66,7 @@ sudo aircrack-ng -w /usr/share/wordlists/rockyou.txt /home/kali/Desktop/mikewifi
 - `/home/kali/Desktop/mikewifi.cap`: This is the path to the capture file (mikewifi.cap) that contains the encrypted Wi-Fi data you want to analyze. <br>
 
 Despite attempting to crack the password using the `rockyou.txt` wordlist and several others, I was unsuccessful. After trying over 15 million passwords, I was still unable to gain access to the network. 
+<br><br>
 
 ## Social-Engineering
 
@@ -75,7 +76,7 @@ Lets start off with the definition.<br> <br>
 Social engineering is a technique used by attackers to manipulate individuals into divulging confidential information, performing actions, or making decisions that they wouldn't typically do. <br><br>
 
 **The following day:** I happened to run into my neighbor and recounted my endeavor of attempting over 15 million password combinations to access his WiFi without success. He chuckled at the sheer magnitude of the attempts and casually mentioned that he believed he was still using the default password provided by his internet service provider (ISP). This casual conversation sparked my curiosity. I began pondering whether ISPs follow a specific method in crafting default passwords. Has anyone delved into this inquiry before? The moment had arrived to embark on a journey of exploration and research.
-
+<br><br>
 
 ## Research
 ![Imgur](https://i.imgur.com/9ITPxus.jpg)
@@ -84,6 +85,7 @@ After conducting an extensive research dive, a discernible pattern emerged in th
 
 Undeterred, the creator had also crafted a more manageable wordlist, containing just the words without the digits. This pared-down file offered a significantly reduced size that was usable on my machine. The upcoming section will unravel whether we can successfully crack the password using `hashcat`.
 
+<br><br>
 
 ## Hashcat
 
@@ -128,6 +130,8 @@ Explanation:
 
 At this point, `hashcat` initiated the process, estimating approximately 2.5 hours to exhaustively explore all possible combinations. Surpassing expectations, within an hour and a half, the password was successfully deciphered, adopting a format of (adjective)(noun)(3 digits).
 
+<br><br>
+
 ## Conclusion
 
 The WIFI Attack project delved into the realm of wireless security using tools such as `wifite`, `aircrack-ng`, and `hashcat` within the Kali Linux environment. With explicit consent from my neighbor, the objective was to enhance the security of his network by exploring potential vulnerabilities.
@@ -140,6 +144,8 @@ Through the journey:
 - **Hashcat** played a pivotal role, converting captured data to the HCCAPX format and successfully deciphering the password using a tailored brute-force attack.
 
 In the end, the project not only highlighted the importance of ethical hacking practices but also showcased the need for robust password policies and user awareness. By responsibly employing these tools, we can contribute to a more secure and resilient digital environment.
+
+<br><br>
 
 ## Contributing 
 Contributions to this project are welcome! If you find any issues or want to enhance the project, feel free to submit a pull request.
