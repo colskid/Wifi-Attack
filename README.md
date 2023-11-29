@@ -1,4 +1,4 @@
-# WiFi Attack w/ Wifite, Aircrack-ng, & Hashcat (In Progress)
+# WiFi Attack w/ Wifite, Aircrack-ng, & Hashcat
 
 ![Imgur](https://imgur.com/q3Q24ux.jpg)
 
