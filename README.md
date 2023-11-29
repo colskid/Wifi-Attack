@@ -86,6 +86,9 @@ Undeterred, the creator had also crafted a more manageable wordlist, containing 
 
 
 ## Hashcat
+
+![Imgur](https://i.imgur.com/6aPbi7F.jpg)
+
 The first thing I had to do was convert the mikewifi.cap to mike.hc22000 using a tool:
 
 ```sh
