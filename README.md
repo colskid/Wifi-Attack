@@ -48,7 +48,9 @@ Wifite automates various stages of a wireless network attack, particularly focus
 
 ![Imgur](https://preview.redd.it/68orqswiei9a1.png?width=766&format=png&auto=webp&s=f3f74ce211e58943774642f0aa47ad4c3f72d7fb)
 <br> <br> <br>
-While `wifite` couldn't crack the password, we successfully captured a `.pcap` file that will prove useful moving forward.
+While `wifite` couldn't crack the password, we successfully captured a `.cap` file that will prove useful moving forward.
+
+*A `.cap` file, in the context of wireless network security, is commonly associated with Aircrack-ng and other tools used for capturing and analyzing Wi-Fi traffic. It stands for "capture" and is often used to store data related to Wi-Fi handshakes and other network activities.*
 <br><br>
 
 ## Aircrack-ng
