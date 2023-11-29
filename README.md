@@ -82,20 +82,13 @@ Undeterred, the creator had also crafted a more manageable wordlist, containing 
 
 
 ## Hashcat
-
-### Capturing HTTP Traffic <br>
-To capture HTTP traffic, I used a filter to target HTTP packets:
+The first thing I had to do was convert the mikewifi.cap to mike.hc22000 using a tool:
 
 ```sh
-sudo tcpdump -i eth0 -n -s 0 -w http_traffic.pcap port 80
+sudo hcxpcapngtool -o mike.hc22000 mikewifi.cap 
 ```
 
-### Analyzing DNS Queries <br>
-To analyze DNS queries, I filtered for DNS packets:
-
-```sh
-sudo tcpdump -i eth0 -n -s 0 -w dns_queries.pcap port 53
-```
+*The command hcxpcapngtool in the terminal is employed to convert a captured WiFi traffic file, represented in the PCAP-NG format as mikewifi.cap, into the HCCAPX format. The resulting file, named mike.hc22000, is formatted to store critical information related to WiFi handshakes. The HCCAPX format is commonly utilized in tools like Hashcat, particularly for offline password cracking attacks against WiFi handshakes. This conversion process is integral to preparing the captured data for subsequent security analyses and experiments within the project.*
 
 ## Contributing 
 Contributions to this project are welcome! If you find any issues or want to enhance the project, feel free to submit a pull request.
