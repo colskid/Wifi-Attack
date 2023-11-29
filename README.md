@@ -12,6 +12,7 @@ Welcome to the **WIFI Attack** project! This repository contains resources and e
 - [Social-Engineering](#social-engineering)
 - [Research](#research)
 - [Hashcat](#hashcat)
+- [Conclusion](#conclusion)
 - [Contributing](#contributing)
 
 
@@ -119,7 +120,20 @@ Explanation:
 
 - `?d?d?d`: Represents a mask for the brute-force attack, where `?d` denotes a digit, and the pattern `?d?d?d` indicates three digits.
 
+At this point, `hashcat` initiated the process, estimating approximately 2.5 hours to exhaustively explore all possible combinations. Surpassing expectations, within an hour and a half, the password was successfully deciphered, adopting a format of (adjective)(noun)(3 digits).
 
+## Conclusion
+
+The WIFI Attack project delved into the realm of wireless security using tools such as wifite, aircrack-ng, and hashcat within the Kali Linux environment. With explicit consent from my neighbor, the objective was to enhance the security of his network by exploring potential vulnerabilities.
+
+Through the journey:
+- **Wifite** automated various stages of wireless network attacks, focusing on Wi-Fi networks. Despite not cracking the password, valuable data in the form of a .pcap file was successfully captured.
+- **Aircrack-ng** attempted dictionary attacks using wordlists, revealing the challenge of cracking passwords despite exhaustive attempts.
+- **Social Engineering** introduced the concept of manipulating individuals to extract information, prompting a curious exploration into the methods employed by Internet Service Providers in crafting default passwords.
+- **Research** uncovered a pattern in ISPs' default passwords, leading to the discovery of a wordlist tailored for such scenarios.
+- **Hashcat** played a pivotal role, converting captured data to the HCCAPX format and successfully deciphering the password using a tailored brute-force attack.
+
+In the end, the project not only highlighted the importance of ethical hacking practices but also showcased the need for robust password policies and user awareness. By responsibly employing these tools, we can contribute to a more secure and resilient digital environment.
 
 ## Contributing 
 Contributions to this project are welcome! If you find any issues or want to enhance the project, feel free to submit a pull request.
