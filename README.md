@@ -90,7 +90,10 @@ sudo hcxpcapngtool -o mike.hc22000 mikewifi.cap
 
 *The command hcxpcapngtool in the terminal is employed to convert a captured WiFi traffic file, represented in the PCAP-NG format as mikewifi.cap, into the HCCAPX format. The resulting file, named mike.hc22000, is formatted to store critical information related to WiFi handshakes. The HCCAPX format is commonly utilized in tools like Hashcat, particularly for offline password cracking attacks against WiFi handshakes. This conversion process is integral to preparing the captured data for subsequent security analyses and experiments within the project.*
 
-*Also, In Hashcat, the numerical value in the file extension, such as the 22000 in mike.hc22000, corresponds to the hash mode. In Hashcat, hash modes define the type of hash algorithm and the specific parameters used for hashing. Each hash mode is associated with a unique numerical identifier.*
+*In Hashcat, the numerical value in the file extension, such as the 22000 in mike.hc22000, corresponds to the hash mode. In Hashcat, hash modes define the type of hash algorithm and the specific parameters used for hashing. Each hash mode is associated with a unique numerical identifier.
+
+The `22000` hash mode specifically represents WPA/WPA2 (Wireless Protected Access) hashes with PMKID (Pairwise Master Key Identifier). PMKID is a type of information obtained during a WPA/WPA2 handshake. Hashcat uses different modes for various types of hash algorithms and cryptographic processes.
+*
 
 ## Contributing 
 Contributions to this project are welcome! If you find any issues or want to enhance the project, feel free to submit a pull request.
