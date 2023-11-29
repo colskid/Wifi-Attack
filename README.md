@@ -124,7 +124,7 @@ At this point, `hashcat` initiated the process, estimating approximately 2.5 hou
 
 ## Conclusion
 
-The WIFI Attack project delved into the realm of wireless security using tools such as wifite, aircrack-ng, and hashcat within the Kali Linux environment. With explicit consent from my neighbor, the objective was to enhance the security of his network by exploring potential vulnerabilities.
+The WIFI Attack project delved into the realm of wireless security using tools such as `wifite`, `aircrack-ng`, and `hashcat` within the Kali Linux environment. With explicit consent from my neighbor, the objective was to enhance the security of his network by exploring potential vulnerabilities.
 
 Through the journey:
 - **Wifite** automated various stages of wireless network attacks, focusing on Wi-Fi networks. Despite not cracking the password, valuable data in the form of a .pcap file was successfully captured.
