@@ -96,6 +96,13 @@ The `22000` hash mode specifically represents WPA/WPA2 (Wireless Protected Acces
 
 Now armed with this information, let's explore the possibility of deciphering the password using our newly acquired `mike.hc22000` file.
 
+First, i want to `cd` into the folder where the `mike.hc22000` file is located, mine was on the Desktop. 
+
+```sh
+cd Desktop  
+```
+Then:
+
 ```sh
 sudo hashcat -m 22000 -a 6 mike.hc22000 /usr/share/wordlists/isp.txt ?d?d?d   
 ```
