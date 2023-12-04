@@ -2,7 +2,7 @@
 
 ![Imgur](https://imgur.com/q3Q24ux.jpg)
 
-Welcome to the **WIFI Attack** project! This repository contains resources and examples for capturing a WiFi password using multiple tools including  `wifite` , `aircrack-ng` , & `hashcat` within the Kali Linux environment.
+Welcome to my **WIFI Attack** project! This repository contains resources and examples for capturing a WiFi password using multiple tools including  `wifite` , `aircrack-ng` , & `hashcat` within the Kali Linux environment.
 
 ## Table of Contents
 
